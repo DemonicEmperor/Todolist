@@ -1,2 +1,0 @@
-# Todolist
-Todoapp using javascript

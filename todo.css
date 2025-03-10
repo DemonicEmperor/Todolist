@@ -1,0 +1,72 @@
+body {
+  background-color: #e3f2fd;
+  color: #0d47a1;
+}
+
+h1 {
+  color: #0d47a1;
+  text-align: center;
+}
+
+.inputs {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #f0f8ff;
+}
+
+.inputs input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #2196f3;
+  background-color: rgb(227, 242, 253);
+  padding: 5px;
+}
+.inputs table td {
+  padding: 10px;
+}
+#submit-btn {
+  text-align: center;
+}
+#submit-btn button {
+  background-color: #2196f3;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 14px;
+}
+.tasks-list {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  margin-top: 20px;
+}
+.tasks-list table {
+  width: 100%;
+  max-height: 100px;
+  overflow: scroll;
+
+  /* border: 2px solid #90caf9; */
+  padding: 3px;
+  border-collapse: collapse;
+}
+.tasks-list table thead td {
+  padding: 5px 10px;
+}
+.task-list table thead,
+.tasks-list td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+#tasks td select {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+select option {
+  background-color: transparent;
+}
