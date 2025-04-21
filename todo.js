@@ -53,7 +53,6 @@ const addtask = () => {
         break;
     }
   });
-
   document.getElementById("task-name").value = "";
   document.getElementById("task-date").value = "";
 };
